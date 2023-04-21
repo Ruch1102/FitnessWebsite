@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) ,url(firstimage.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    flex: 1;
+    text-align: right;
+}
+.nav ul a{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.908);
+}
+.text{
+    width: 80%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    text-align: left;
+    text-decoration:wavy;
+    font-size: 30px;
+}
+.main{
+    font-size: 50px;
+}
+.btn1{
+    display:inline-flex;
+    text-decoration: solid;
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 10px 10px;
+    font-size: 15px;
+    background: transparent;
+    position:absolute;
+    margin-left: 30%;
+    cursor: pointer;
+}
+.btn1:hover{
+    background: rgb(86, 117, 208);
+    border: 1px solid rgb(86, 117, 208);
+    transition: 1s;
+}
+.programs{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) ,url(secondimage.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color: aliceblue;
+
+}
+.progarm1{
+    font-size:30px ;
+    color: aliceblue;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 15px;
+   
+}
+.row{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    flex-basis:30% ;
+    background: transparent;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.col:hover{
+    
+    border-radius: 5%;
+    border-color: antiquewhite;
+    border: 1px solid rgb(153, 203, 234);
+    backface-visibility:unset;
+    color: rgb(214, 111, 111);
+    transition: 0.2s;
+    box-shadow:0 0 20px 0px ;
+}
+.manymore{
+    border: 5%;
+    background-color: transparent;
+    font-size: 20px;
+    color:rgb(18, 139, 194) ;
+}
+.manymore:hover{
+    color: palevioletred;
+}
+.session{
+    background-image:url(background_mat.jpg) ;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    margin: auto;
+}
+.sescol{
+    flex-basis: 32%;
+    border-radius: 10%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.sescol img{
+    width: 100%;
+    height: 100%;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgb(226,0,0,0.7);
+    text-align: center;
+}
+.layer h3{
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%);
+    opacity: 0;
+    bottom: 0%;
+    left: 50%;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    opacity: 1;
+    bottom: 20%;
+}
+.diet{
+    
+    padding-top: 50px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.dietcol img{
+    width: 45%;
+    text-align: left;
+    border-radius: 10px;
+    padding-left: 0%;
+}
+.diet2{
+    padding-right: 30%;
+    color: antiquewhite;
+    float: right;
+    text-align: right;
+}
+.review{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    padding-top:100px ;
+    text-align: center;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.244),rgba(241, 243, 252, 0.32)) ,url(review.jpg);
+
+}
+.reviewcol{
+    flex-basis: 60%;
+    border-radius: 129px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: rgb(254, 223, 223);
+    padding: 25px;
+    cursor: pointer;
+    display:flex;
+}
+.reviewcol img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.footer{
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
